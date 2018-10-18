@@ -1,0 +1,16 @@
+= Automatically generated Asciidoctor documentation
+
+Test repo for automatically generated Asciidoctor documentation, as *GitHub pages*.
+
+Command line to generate the doc manually: +
+`mvn org.asciidoctor:asciidoctor-maven-plugin:1.5.7.1:process-asciidoc@asciidoc-to-html`
+
+Workflow:
+
+1. Jenkins scan for `docs` and `.adoc` files
+2. It launches the doc generation in master
+3. then copying the resulting doc in gh-pages branch
+
+
+
+
