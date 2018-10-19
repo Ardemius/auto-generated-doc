@@ -11,6 +11,7 @@ Workflow:
 2. It launches the doc generation in master
 3. then copying the resulting doc in gh-pages branch
 
-
+To stash the newly generated doc in master branch (untracked files), to prepare its copy in gh-pages branch: +
+`git stash push --include-untracked -- generated-docs/*`
 
 
